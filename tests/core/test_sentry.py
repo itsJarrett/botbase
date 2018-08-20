@@ -1,6 +1,6 @@
 import logging
 
-from redbot.core import sentry
+from botbase.core import sentry
 
 
 def test_sentry_capture(red):

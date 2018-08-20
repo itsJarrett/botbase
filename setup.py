@@ -36,7 +36,7 @@ def get_dependency_links():
 
 
 def get_package_list():
-    core = find_packages(include=["redbot", "redbot.*"])
+    core = find_packages(include=["botbase", "botbase.*"])
     return core
 
 
@@ -55,7 +55,7 @@ def check_compiler_available():
 
 
 def get_version():
-    with open("redbot/core/__init__.py") as f:
+    with open("botbase/core/__init__.py") as f:
         version = re.search(
             r'^__version__\s*=\s*[\'"]([^\'"]*)[\'"]', f.read(), re.MULTILINE
         ).group(1)
@@ -76,9 +76,9 @@ def find_locale_folders():
 
         return [str(m.relative_to(parents[0])) for m in msgs]
 
-    ret = {"redbot.core": glob_locale_files(Path("redbot/core/locales"))}
+    ret = {"botbase.core": glob_locale_files(Path("botbase/core/locales"))}
 
-    cogs_path = Path("redbot/cogs")
+    cogs_path = Path("botbase/cogs")
 
     for cog_folder in cogs_path.iterdir():
         locales_folder = cog_folder / "locales"
@@ -101,16 +101,16 @@ if __name__ == "__main__":
         requirements.remove(next(r for r in requirements if r.lower().startswith("discord.py")))
 
     setup(
-        name="Red-DiscordBot",
+        name="BotEX Bot Base",
         version=get_version(),
         packages=get_package_list(),
         package_data=find_locale_folders(),
         include_package_data=True,
-        url="https://github.com/Cog-Creators/Red-DiscordBot",
+        url="",
         license="GPLv3",
-        author="Cog-Creators",
+        author="BotEX and Cog-Creators",
         author_email="",
-        description="A highly customizable Discord bot",
+        description="A highly customizable Discord bot base",
         classifiers=[
             "Development Status :: 4 - Beta",
             "Framework :: AsyncIO",
@@ -121,15 +121,14 @@ if __name__ == "__main__":
             "Programming Language :: Python :: 3.6",
             "Programming Language :: Python :: 3.7",
             "Topic :: Communications :: Chat",
-            "Topic :: Documentation :: Sphinx",
         ],
         entry_points={
             "console_scripts": [
-                "redbot=redbot.__main__:main",
-                "redbot-setup=redbot.setup:main",
-                "redbot-launcher=redbot.launcher:main",
+                "botbase=botbase.__main__:main",
+                "botbase-setup=botbase.setup:main",
+                "botbase-launcher=botbase.launcher:main",
             ],
-            "pytest11": ["red-discordbot = redbot.pytest"],
+            "pytest11": ["botex-discordbot = botbase.pytest"],
         },
         python_requires=">=3.6,<3.8",
         install_requires=requirements,

@@ -3,8 +3,8 @@ from pathlib import Path
 
 import pytest
 
-from redbot.pytest.downloader import *
-from redbot.cogs.downloader.installable import Installable, InstallableType
+from botbase.pytest.downloader import *
+from botbase.cogs.downloader.installable import Installable, InstallableType
 
 
 def test_process_info_file(installable):

@@ -1,4 +1,4 @@
-from redbot import core
+from botbase import core
 
 
 def test_version_working():

@@ -1,5 +1,5 @@
-import textwrap
-from redbot.core.utils import chat_formatting
+﻿import textwrap
+from botbase.core.utils import chat_formatting
 
 
 def test_bordered_symmetrical():

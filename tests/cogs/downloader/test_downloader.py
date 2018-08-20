@@ -6,10 +6,10 @@ import pytest
 from unittest.mock import MagicMock
 from raven.versioning import fetch_git_sha
 
-from redbot.pytest.downloader import *
+from botbase.pytest.downloader import *
 
-from redbot.cogs.downloader.repo_manager import RepoManager, Repo
-from redbot.cogs.downloader.errors import ExistingGitRepo
+from botbase.cogs.downloader.repo_manager import RepoManager, Repo
+from botbase.cogs.downloader.errors import ExistingGitRepo
 
 
 def test_existing_git_repo(tmpdir):
@@ -44,7 +44,7 @@ async def test_clone_repo(repo_norun, capsys):
 
 @pytest.mark.asyncio
 async def test_add_repo(monkeypatch, repo_manager):
-    monkeypatch.setattr("redbot.cogs.downloader.repo_manager.Repo._run", fake_run_noprint)
+    monkeypatch.setattr("botbase.cogs.downloader.repo_manager.Repo._run", fake_run_noprint)
 
     squid = await repo_manager.add_repo(
         url="https://github.com/tekulvw/Squid-Plugins", name="squid", branch="rewrite_cogs"
@@ -55,7 +55,7 @@ async def test_add_repo(monkeypatch, repo_manager):
 
 @pytest.mark.asyncio
 async def test_remove_repo(monkeypatch, repo_manager):
-    monkeypatch.setattr("redbot.cogs.downloader.repo_manager.Repo._run", fake_run_noprint)
+    monkeypatch.setattr("botbase.cogs.downloader.repo_manager.Repo._run", fake_run_noprint)
 
     await repo_manager.add_repo(
         url="https://github.com/tekulvw/Squid-Plugins", name="squid", branch="rewrite_cogs"

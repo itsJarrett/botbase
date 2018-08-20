@@ -633,6 +633,8 @@ the "copyright" line and a pointer to where the full notice is found.
 
     Red - A fully customizable Discord bot
     Copyright (C) 2015-2018  Twentysix
+	Modifications to the code
+	Copyright (C) 2018       BotEX
 
     This program is free software: you can redistribute it and/or modify
     it under the terms of the GNU General Public License as published by
@@ -652,7 +654,8 @@ Also add information on how to contact you by electronic and paper mail.
   If the program does terminal interaction, make it output a short
 notice like this when it starts in an interactive mode:
 
-    Red-DiscordBot  Copyright (C) 2015-2018  Twentysix
+    red-discordbot  Copyright (C) 2015-2018  Twentysix
+	Modifications   Copyright (C) 2018       BotEX
     This program comes with ABSOLUTELY NO WARRANTY; for details type `show w'.
     This is free software, and you are welcome to redistribute it
     under certain conditions; type `show c' for details.

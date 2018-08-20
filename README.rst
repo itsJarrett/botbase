@@ -1,7 +1,7 @@
 .. class:: center
 
   .. image:: https://imgur.com/pY1WUFX.png
-    :target: https://github.com/Cog-Creators/Red-DiscordBot/tree/V3/develop
+    :target: https://github.com/Cog-Creators/botex-discordbot/tree/V3/develop
     :alt: Red Discord Bot
   
   
@@ -15,12 +15,12 @@
     :target: https://discord.gg/red
     :alt: Discord server
     
-  .. image:: https://api.travis-ci.org/Cog-Creators/Red-DiscordBot.svg?branch=V3/develop
-    :target: https://travis-ci.org/Cog-Creators/Red-DiscordBot
+  .. image:: https://api.travis-ci.org/Cog-Creators/botex-discordbot.svg?branch=V3/develop
+    :target: https://travis-ci.org/Cog-Creators/botex-discordbot
     :alt: Travis CI status
 
-  .. image:: https://readthedocs.org/projects/red-discordbot/badge/?version=v3-develop
-    :target: http://red-discordbot.readthedocs.io/en/v3-develop/?badge=v3-develop
+  .. image:: https://readthedocs.org/projects/botex-discordbot/badge/?version=v3-develop
+    :target: http://botex-discordbot.readthedocs.io/en/v3-develop/?badge=v3-develop
     :alt: Documentation Status
     
   .. image:: https://img.shields.io/badge/discord-py-blue.svg
@@ -31,8 +31,8 @@
     :target: https://github.com/ambv/black
     :alt: Code style: black
 
-  .. image:: https://d322cqt584bo4o.cloudfront.net/red-discordbot/localized.svg
-    :target: https://crowdin.com/project/red-discordbot
+  .. image:: https://d322cqt584bo4o.cloudfront.net/botex-discordbot/localized.svg
+    :target: https://crowdin.com/project/botex-discordbot
     :alt: Crowdin
 
   .. image:: https://img.shields.io/badge/Support-Red!-orange.svg
@@ -74,7 +74,7 @@ This is also a *self-hosted bot* – meaning you will need to host and maintain 
 - Anilist
 - And much, much more!
 
-Feel free to take a `peek <https://github.com/Cog-Creators/Red-DiscordBot/issues/1398>`_!
+Feel free to take a `peek <https://github.com/Cog-Creators/botex-discordbot/issues/1398>`_!
 
 ==============
 Installation
@@ -82,23 +82,23 @@ Installation
 
 **The following platforms are officially supported:** 
 
-- `Windows <https://red-discordbot.readthedocs.io/en/v3-develop/install_windows.html>`_
-- `MacOS <https://red-discordbot.readthedocs.io/en/v3-develop/install_mac.html>`_
-- `Ubuntu <https://red-discordbot.readthedocs.io/en/v3-develop/install_ubuntu.html>`_
-- `Debian Stretch <https://red-discordbot.readthedocs.io/en/v3-develop/install_debian.html>`_
-- `CentOS 7 <https://red-discordbot.readthedocs.io/en/v3-develop/install_centos.html>`_
-- `Arch Linux <https://red-discordbot.readthedocs.io/en/v3-develop/install_arch.html>`_
-- `Raspbian Stretch <https://red-discordbot.readthedocs.io/en/v3-develop/install_raspbian.html>`_
+- `Windows <https://botex-discordbot.readthedocs.io/en/v3-develop/install_windows.html>`_
+- `MacOS <https://botex-discordbot.readthedocs.io/en/v3-develop/install_mac.html>`_
+- `Ubuntu <https://botex-discordbot.readthedocs.io/en/v3-develop/install_ubuntu.html>`_
+- `Debian Stretch <https://botex-discordbot.readthedocs.io/en/v3-develop/install_debian.html>`_
+- `CentOS 7 <https://botex-discordbot.readthedocs.io/en/v3-develop/install_centos.html>`_
+- `Arch Linux <https://botex-discordbot.readthedocs.io/en/v3-develop/install_arch.html>`_
+- `Raspbian Stretch <https://botex-discordbot.readthedocs.io/en/v3-develop/install_raspbian.html>`_
 
-Already using **Red** V2? Take a look at the `Data Converter <https://red-discordbot.readthedocs.io/en/v3-develop/cog_dataconverter.html>`_ to import your data to V3.
+Already using **Red** V2? Take a look at the `Data Converter <https://botex-discordbot.readthedocs.io/en/v3-develop/cog_dataconverter.html>`_ to import your data to V3.
 
-If `after reading the guides <https://red-discordbot.readthedocs.io/en/v3-develop/>`_ you are still experiencing issues, feel free to join the `Official Server <https://discord.gg/red>`_ and ask in the **#support** channel for help. 
+If `after reading the guides <https://botex-discordbot.readthedocs.io/en/v3-develop/>`_ you are still experiencing issues, feel free to join the `Official Server <https://discord.gg/red>`_ and ask in the **#support** channel for help. 
 
 =====================
 Join the community!
 =====================
 
-**Red** is in continuous development, and it’s supported by an active community which produces new content (cogs/plugins) for everyone to enjoy. New features are constantly added. If you can’t `find <https://github.com/Cog-Creators/Red-DiscordBot/issues/1398>`_ what you’re looking for, consult our `guide <https://red-discordbot.readthedocs.io/en/v3-develop/guide_cog_creation.html>`_ on building your own cogs! 
+**Red** is in continuous development, and it’s supported by an active community which produces new content (cogs/plugins) for everyone to enjoy. New features are constantly added. If you can’t `find <https://github.com/Cog-Creators/botex-discordbot/issues/1398>`_ what you’re looking for, consult our `guide <https://botex-discordbot.readthedocs.io/en/v3-develop/guide_cog_creation.html>`_ on building your own cogs! 
 
 Join us on our `Official Discord Server <https://discord.gg/red>`_!
 

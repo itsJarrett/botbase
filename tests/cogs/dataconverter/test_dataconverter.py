@@ -1,8 +1,8 @@
 import pytest
 from collections import namedtuple
 
-from redbot.pytest.dataconverter import *
-from redbot.core.utils.data_converter import DataConverter
+from botbase.pytest.dataconverter import *
+from botbase.core.utils.data_converter import DataConverter
 
 
 def mock_dpy_object(id_):

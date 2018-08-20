@@ -1,6 +1,6 @@
 import pytest
 
-from redbot.pytest.mod import *
+from botbase.pytest.mod import *
 
 
 @pytest.mark.asyncio
